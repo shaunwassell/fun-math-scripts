@@ -14,4 +14,9 @@ function collatz(n) {
     return sequence;
 }
 
-console.log(collatz(7));
+let MAX_VALUE = 50;
+
+for (i = 1; i <= MAX_VALUE; i++) {
+    console.log('i is ' + i + '--------------------')
+    console.log(collatz(i));
+}
