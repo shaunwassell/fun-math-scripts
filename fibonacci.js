@@ -10,4 +10,9 @@ function fibonacci(n) {
   return b;
 }
 
-console.log(fibonacci(10));
+const MAX_VALUE = 10;
+
+for (i = 1; i <= MAX_VALUE; i++) {
+    console.log('(' + i + ') ----------------------')
+    console.log(fibonacci(i));
+}
