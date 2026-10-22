@@ -10,5 +10,13 @@ function isPrime(number) {
   return true;
 }
 
-console.log(isPrime(7));
-console.log(isPrime(12));
+MAX_VALUE = 100;
+let primes = []
+
+for (i = 1; i <= MAX_VALUE; i++) {
+  if (isPrime(i)) {
+    primes.push(i);
+  }
+}
+
+console.log(primes);
