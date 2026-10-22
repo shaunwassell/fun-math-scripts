@@ -10,7 +10,7 @@ function isPrime(number) {
   return true;
 }
 
-MAX_VALUE = 100;
+MAX_VALUE = 200;
 let primes = []
 
 for (i = 1; i <= MAX_VALUE; i++) {
