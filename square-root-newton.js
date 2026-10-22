@@ -1,4 +1,8 @@
 function squareRoot(number, tolerance = 0.000001) {
+  if (number < 0) {
+    throw new Error("Cannot calculate square root of a negative number");
+  }
+
   if (!Number.isFinite(number)) {
     throw new Error("Input must be a finite number");
   }
