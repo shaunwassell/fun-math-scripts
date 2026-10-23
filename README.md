@@ -4,7 +4,8 @@ This project is a collection of math-related scripts and demos written in JavaSc
 
 ### Installation
 
-There is no installation needed besides Node.js!
+- In order to run the code in this project, you'll need to download and install [Node.js](https://nodejs.org/en/download)
+- After cloning the project, you'll need to run `npm install` to install the project's dependencies.
 
 ### How To Use
 
