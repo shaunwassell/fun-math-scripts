@@ -1,4 +1,4 @@
-function collatz(n) {
+function collatzSequence(n) {
     let sequence = [n];
 
     while (n != 1) {
@@ -18,5 +18,5 @@ const MAX_VALUE = 50;
 
 for (i = 1; i <= MAX_VALUE; i++) {
     console.log('(' + i + ') ----------------------')
-    console.log(collatz(i));
+    console.log(collatzSequence(i));
 }
