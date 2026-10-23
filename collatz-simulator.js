@@ -8,7 +8,7 @@ function collatz(n) {
             n = 3 * n + 1;
         }
 
-        sequence.push(n);
+        sequence = [...sequence, n];
     }
 
     return sequence;
