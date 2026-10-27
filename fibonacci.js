@@ -13,9 +13,9 @@ function fib(n) {
   return b;
 }
 
-const MAX_VALUE = 20;
+const maxValue = 20;
 
-for (i = 1; i <= MAX_VALUE; i++) {
+for (i = 2; i <= maxValue; i++) {
     console.log('(' + i + ') ----------------------')
     console.log(chalk.green(fib(i)));
 }
