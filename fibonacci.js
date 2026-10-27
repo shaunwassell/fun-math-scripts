@@ -1,6 +1,6 @@
 const chalk = require('chalk').default;
 
-// A function that calculates the nth fibonacci number
+A function that calculates the nth fibonacci number
 function fibonacci(n) {
   if (n <= 1) return n;
 

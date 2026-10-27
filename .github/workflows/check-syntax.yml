@@ -2,6 +2,9 @@ name: Check JavaScript Syntax
 
 on:
   push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   check-syntax:
