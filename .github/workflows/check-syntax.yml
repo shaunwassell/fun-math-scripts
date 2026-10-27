@@ -25,3 +25,10 @@ jobs:
           for file in *.js; do
             node --check "$file"
           done
+
+      - name: Run Math Demos
+        run: |
+          node collatz-simulator.js
+          node prime-checker.js
+          node sierpinski.js
+          node square-root-newton.js
