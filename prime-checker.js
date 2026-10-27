@@ -1,5 +1,5 @@
 function isPrime(number) {
-  if (!Number.isInteger(number) || number < 2) {
+  if (!Number.isSafeInteger(number) || number < 2) {
     return false;
   }
 
