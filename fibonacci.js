@@ -1,7 +1,7 @@
 const chalk = require('chalk').default;
 
 // A function that calculates the nth fibonacci number
-function fibonacci(n) {
+function fib(n) {
   if (n <= 1) return n;
 
   let a = 0, b = 1;
@@ -17,5 +17,5 @@ const MAX_VALUE = 13;
 
 for (i = 1; i <= MAX_VALUE; i++) {
     console.log('(' + i + ') ----------------------')
-    console.log(chalk.green(fibonacci(i)));
+    console.log(chalk.green(fib(i)));
 }
