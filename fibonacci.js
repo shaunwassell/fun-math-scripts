@@ -13,7 +13,7 @@ function fib(n) {
   return b;
 }
 
-const maxValue = 30;
+const maxValue = 50;
 
 for (i = 2; i <= maxValue; i++) {
     console.log('(' + i + ') ----------------------')
