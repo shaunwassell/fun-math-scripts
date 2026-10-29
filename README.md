@@ -23,3 +23,5 @@ This project includes demos/code for the following:
 ### Using Codespaces
 
 If you want to use codespaces to edit and run this code, click on the green "code" button up above and select "Codespaces"
+
+You **do not need** to run npm install in a Codespace, the dependencies of the project are automatically installed for you on startup.
