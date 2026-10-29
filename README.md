@@ -18,6 +18,7 @@ This project includes demos/code for the following:
 1. Fibonacci Sequence Generator
 1. Prime Number Checker
 1. Square Root Calculator (using Newton's method)
+1. A Sierpinski Simulator
 
 ### Using Codespaces
 
