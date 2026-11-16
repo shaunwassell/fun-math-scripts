@@ -1,6 +1,6 @@
 # Fun Math Scripts
 
-This project is a collection of math-related scripts and demos written in JavaScript
+This project is a collection of math-related scripts and demos written in JavaScript.
 
 ### Installation
 
